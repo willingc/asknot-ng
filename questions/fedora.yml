@@ -1,6 +1,6 @@
-title: What can I do for Fedora?
-description: What can I do for Fedora?
-favicon: https://getfedora.org/static/images/favicon.ico
+title: What can I do for GNOME?
+description: What can I do for GNOME?
+favicon: https://www.gnome.org/wp-content/themes/gnome-grass/images/favicon.png
 negatives:
     - "No"
     - Nope, nope, nope
@@ -25,12 +25,14 @@ backlinks:
 navlinks:
     - name: Join
       link: "javascript:reloadHome();"
-    - name: Get Fedora
-      link: https://getfedora.org
+    - name: Get GNOME!
+      link: https://www.gnome.org/getting-gnome/
+#    - name: GNOME GSoC
+#      link: https://wiki.gnome.org/Outreach/SummerOfCode/
 
 tree:
-  segue1: Want to help Fedora?  Tell me...
-  segue2: what's your area of interest?
+  segue1: Welcome to GNOME!
+  segue2: What are you passionate about?
   children:
   - title: Design
     subtitle: pixel ninjas
@@ -52,13 +54,6 @@ tree:
     segue1: So, you have a way with words?
     segue2: Would you be more interested in...
     children: includes/fedora/writing.yml
-
-  - title: Categorization
-    subtitle: labelling things, perhaps obsessively
-    image: https://badges.fedoraproject.org/pngs/tagger-01.png
-    segue1: So you like putting things in their place?
-    segue2: How about...
-    children: includes/fedora/categorization.yml
 
   - title: Translation
     subtitle: we're an international effort, after all
@@ -88,31 +83,3 @@ tree:
     segue2: Are you more interested in something...
     children: includes/fedora/qa.yml
 
-  - title: The Desktop
-    subtitle: we all have our favorite
-    image: https://getfedora.org/static/images/logo-color-workstation.png
-    segue1: So you're into making the OS polished and easy to use?
-    segue2: You probably want to join the Fedora...
-    children: includes/fedora/desktop.yml
-
-  - title: The Server
-    subtitle: the best and latest for the datacenter
-    image: https://getfedora.org/static/images/logo-color-server.png
-    segue1: So you're into making the OS powerful and flexible?
-    segue2: You probably want to join the Fedora...
-    children: includes/fedora/server.yml
-
-  - title: The Cloud
-    subtitle: it's where the future lives
-    image: https://getfedora.org/static/images/logo-color-cloud.png
-    segue1: High-minded?
-    segue2: You probably want to join the Fedora...
-    children: includes/fedora/cloud.yml
-
-  - title: Internationalization
-    subtitle: making Fedora work better for all languages
-    image: https://badges.fedoraproject.org/pngs/irc-support-sig_member.png
-    segue1: Have a regional or world perspective?
-    segue2: You probably want to join the Fedora...
-    children: includes/fedora/i18n.yml
-    
