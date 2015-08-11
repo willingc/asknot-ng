@@ -88,7 +88,8 @@ body {
   display: block;
   width: 301px;
   height: 72px;
-  background: url('../img/gnome-logo.png');
+  background: url('../img/GnomeLogoHorizontal.png');
+  background-size: 200px;
   background-repeat: no-repeat;
   /* This is hilarious. */
   text-indent: -9999px;
