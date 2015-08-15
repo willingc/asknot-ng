@@ -132,13 +132,18 @@ body {
     min-width: 105px;
 }
 
-.masthead, .mastfoot {
+.masthead {
   margin-right: auto;
   margin-left: auto;
 }
 
 .mastfoot {
+    margin: 0px, 0px, 0px, 0px;
     height: 40px;
+    padding-top: 10px;
+    background-color: #d3d7cf;
+    /* You need "important" here to override the media-specific css queries */
+    width: 100% !important;
 }
 
 @media (min-width: 768px) {
