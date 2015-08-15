@@ -35,7 +35,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: url('../img/adwaita-morning.jpg'); 
+  background: url('../img/adwaita-morning.jpg');
 }
 body {
   color: #fff;
@@ -141,7 +141,7 @@ body {
     margin: 0px, 0px, 0px, 0px;
     height: 40px;
     padding-top: 10px;
-    background-color: #d3d7cf;
+    background: url('../img/grass.png');
     /* You need "important" here to override the media-specific css queries */
     width: 100% !important;
 }
