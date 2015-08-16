@@ -137,10 +137,15 @@ body {
   margin-left: auto;
 }
 
+.mastfoot a {
+    color: #111;
+}
+
 .mastfoot {
     margin: 0px, 0px, 0px, 0px;
     height: 70px;
     padding-top: 40px;
+    color: #666 !important;
     background: url('../img/grass.png');
     /* You need "important" here to override the media-specific css queries */
     width: 100% !important;
