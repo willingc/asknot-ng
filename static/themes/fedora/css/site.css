@@ -53,9 +53,9 @@ body {
 }
 
 .site-wrapper-inner {
-  height: -webkit-calc(100% - 40px);
-  height: -moz-calc(100% - 40px);
-  height: calc(100% - 40px);
+  height: -webkit-calc(100% - 70px);
+  height: -moz-calc(100% - 70px);
+  height: calc(100% - 70px);
 }
 
 .cover-container {
@@ -139,8 +139,8 @@ body {
 
 .mastfoot {
     margin: 0px, 0px, 0px, 0px;
-    height: 40px;
-    padding-top: 10px;
+    height: 70px;
+    padding-top: 40px;
     background: url('../img/grass.png');
     /* You need "important" here to override the media-specific css queries */
     width: 100% !important;
