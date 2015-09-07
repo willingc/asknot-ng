@@ -1,0 +1,118 @@
+title: What can I do for Jupyter?
+description: What can I do for Jupyter?
+favicon: https://getjupyter.org/static/images/favicon.ico
+negatives:
+    - "No"
+    - Nope, nope, nope
+    - Nope
+    - No, thanks
+    - Not on your life
+    - Doesn't sound like me
+    - Absolutely not
+    - Next, please
+affirmatives:
+    - "Yes"
+    - Sounds awesome
+    - Tell me more
+    - That's me!
+    - Totally
+    - Sure
+backlinks:
+    - I was wrong, take me back
+    - I think I made a mistake
+    - Get me outta here!
+
+navlinks:
+    - name: Join
+      link: "javascript:reloadHome();"
+    - name: Get Jupyter
+      link: https://getjupyter.org
+
+tree:
+  segue1: Want to help Jupyter?  Tell me...
+  segue2: what's your area of interest?
+  children:
+  - title: Design!
+    subtitle: pixel ninjas
+    image: https://badges.jupyterproject.org/pngs/design-team.png
+    segue1: So you enjoy working on the way users interact with websites and programs?
+    segue2: How about the...
+    children: includes/jupyter/design.yml
+
+  - title: Coding
+    subtitle: hacking the gibson
+    image: https://badges.jupyterproject.org/pngs/fas-trust-me-i-know-what-i-am-doing.png
+    segue1: "Zeroes and ones #allday?  Me too."
+    segue2: What's your favorite language?
+    children: includes/jupyter/coding.yml
+
+  - title: Writing
+    subtitle: wordsmithery
+    image: https://badges.jupyterproject.org/pngs/the-write-stuff.png
+    segue1: So, you have a way with words?
+    segue2: Would you be more interested in...
+    children: includes/jupyter/writing.yml
+
+  - title: Categorization
+    subtitle: labelling things, perhaps obsessively
+    image: https://badges.jupyterproject.org/pngs/tagger-01.png
+    segue1: So you like putting things in their place?
+    segue2: How about...
+    children: includes/jupyter/categorization.yml
+
+  - title: Translation
+    subtitle: we're an international effort, after all
+    image: https://badges.jupyterproject.org/pngs/irc-support-sig_member.png
+    segue1:  So you know more than one language?  We need you!
+    segue2: Would you be more interested in...
+    children: includes/jupyter/translation.yml
+
+  - title: Advocacy
+    subtitle: spreading the good word
+    image: https://badges.jupyterproject.org/pngs/jupyter-ambassador-mentor.png
+    segue1: So you're a people person?
+    segue2: How about becoming a Jupyter...
+    children: includes/jupyter/advocacy.yml
+
+  - title: Packaging
+    subtitle: getting new software into Jupyter
+    image: https://badges.jupyterproject.org/pngs/copr-build.png
+    segue1: So you want to help build the OS?  Excellent.
+    segue2: Then you'll need to become a Jupyter...
+    children: includes/jupyter/packaging.yml
+
+  - title: QA and Testing
+    subtitle: as they say, "if it's not tested, it's broken"
+    image: https://badges.jupyterproject.org/pngs/kernel-tester.png
+    segue1: So you like to push all the buttons and break all the things?
+    segue2: Are you more interested in something...
+    children: includes/jupyter/qa.yml
+
+  - title: The Desktop
+    subtitle: we all have our favorite
+    image: https://getjupyter.org/static/images/logo-color-workstation.png
+    segue1: So you're into making the OS polished and easy to use?
+    segue2: You probably want to join the Jupyter...
+    children: includes/jupyter/desktop.yml
+
+  - title: The Server
+    subtitle: the best and latest for the datacenter
+    image: https://getjupyter.org/static/images/logo-color-server.png
+    segue1: So you're into making the OS powerful and flexible?
+    segue2: You probably want to join the Jupyter...
+    children: includes/jupyter/server.yml
+
+  - title: The Cloud
+    subtitle: it's where the future lives
+    image: https://getjupyter.org/static/images/logo-color-cloud.png
+    segue1: High-minded?
+    segue2: You probably want to join the Jupyter...
+    children: includes/jupyter/cloud.yml
+
+  - title: Internationalization
+    subtitle: making Jupyter work better for all languages
+    image: https://badges.jupyterproject.org/pngs/irc-support-sig_member.png
+    segue1: Have a regional or world perspective?
+    segue2: You probably want to join the Jupyter...
+    children: includes/jupyter/i18n.yml
+
